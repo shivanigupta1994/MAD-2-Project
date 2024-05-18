@@ -67,7 +67,7 @@ To install and run the Library Management System, follow these steps:
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/shivanigupta1994/repository.git
+   git clone https://github.com/shivanigupta1994/MAD-2-Project.git
 
 2. **Install Dependencies:**
    ```bash
