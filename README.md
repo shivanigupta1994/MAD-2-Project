@@ -26,21 +26,16 @@ The Library Management System is designed with a client-server architecture, lev
 - **Intuitive Design:** Easy navigation for both librarian and users.
 - **Responsive Layout:** Accessible on various devices for convenience.
 
-### Category Management
+### Section & Book Management
 - **Catalog Management:** Add, edit, and delete books from the library.
-- **Search Functionality:** Quickly find books based on title, author, or categor.
+- **Search Functionality:** Quickly find books based on book_name, author, or section_name.
 
 ### User Account Management
 - **Membership Handling:** Register new users and manage existing member accounts.
 - **Borrowing History:** Keep track of books borrowed by each user.
 
-### Transaction Management
-- **Check-in/Check-out:** Manage book transactions efficiently.
-- **Overdue Notifications:** Automated reminders for overdue books.
-
 ### Analytics and Reporting
-- **Visual Insights:** Generate graphical reports on book circulation, popular genres, etc.
-- **Decision Support:** Data-driven analytics for strategic planning.
+- **Visual Insights:** Generate graphical reports on book circulation, recently added, etc.
 
 ### Database Integration
 - **SQLite Database:** Efficient storage and retrieval of library data.
@@ -53,10 +48,10 @@ The Library Management System is designed with a client-server architecture, lev
 - **Flask-Caching and Redis:** Cache API responses for faster access and performance.
 
 ### Comprehensive RESTful API
-- **Well-Structured:** API endpoints for managing books, users, and transactions.
+- **Well-Structured:** API endpoints for managing books and sections.
 
 ### Security Features
-- **User Authentication:** Secure login for librarians and patrons.
+- **User Authentication:** Secure login for librarian and users.
 - **Data Protection:** Safeguarding sensitive information.
 
 ### High-Quality Imagery
