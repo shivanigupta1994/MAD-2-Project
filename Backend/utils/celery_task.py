@@ -12,7 +12,7 @@ def daily_reminders():
     Users = User.query.filter_by(user_type='user').all()
     
     for user in Users:
-        if user.last_login != current_date:
+        if user.last_login.strftime('%Y-%m-%d') != current_date:
             html_reminder = create_html_reminder(user)
             send_email(user.email, 'Reminder', html_reminder)
             google_chat_webhook(user.username)
